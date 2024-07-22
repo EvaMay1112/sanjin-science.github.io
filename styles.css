@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: calc(100% - 50px); /* 留出底部按钮的空间 */
+}
+
+.sidebar {
+    width: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-button {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #e0e0e0;
+    margin: 20px;
+}
+
+.right-bar {
+    width: 150px;
+    background-color: #d0d0d0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 18px;
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    height: 50px;
+    align-items: center;
+}
+
+.bottom-button {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 0 10px;
+}
